@@ -1,0 +1,20 @@
+const Discord = require('discord.js');
+module.exports = {
+    cooldown: 5,
+    name: "cry",
+    async run(client,message){
+        function between(min, max) {  
+            return Math.floor(
+              Math.random() * (max - min) + min
+            )
+          }
+          const n = between(1,40)
+          
+        const img = new Discord.MessageEmbed()
+        .setColor('#00faf0')
+        .setTitle(`${message.author.username} cries`)
+        .setImage('https://leref.ga/api/public/cry/'+n+'.gif')
+        .setFooter(``)
+        message.channel.send(img);
+    }
+}
