@@ -6,3 +6,6 @@ makesure to configure the bot using `commands\settingsprefix.json` and `rewrite\
 ```npm install```
 ```node .```
 *A full and clear instruction will be added soon*
+
+
+The help commands and not done fully but it will be done! 
