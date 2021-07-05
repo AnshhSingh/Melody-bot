@@ -77,4 +77,4 @@ client.aliases = new discord.Collection();
         }
     })
     
-client.login('ODA3NjI0MzQ4MTA1NDQxMzIy.YB6syQ.mvlvo5lYsU4nomJ0IhdbTKCWurg');
+client.login('');
