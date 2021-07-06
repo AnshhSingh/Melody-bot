@@ -36,16 +36,7 @@ for (const file of player) {
 }
 client.aliases = new discord.Collection();
 
-//const fetch = require('node-fetch')
 
-//fetch("https://botsfordiscord.com/api/bots/636932023717593088", {
-        //method: 'post',
-        //headers: {
-            //"Content-Type": "application/json",
-            //"Authorization": "195446e788927ba3e987dd47de32b44a1b4cd1fc2faa18913a011ce6576c530a6b28ee16e5fb11915d22e82905dcb52a2df8cd779e3ea834b2efea42fd1cdc58"
-        //},
-        //body: JSON.stringify({"server_count": client.guilds.cache.size}),
-    //}).catch(e => console.log(e))
     var lastReply = 0;
     client.on("message", async message => {
 
